@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-noisolation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.noisolation.com:modules/eslint-conf.git"
+  },
+  "author": "Matias Doyle <doyle@noisolation.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^2.5.3"
+  }
+}
