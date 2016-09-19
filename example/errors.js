@@ -1,5 +1,5 @@
 function test() {
-  // Ident error
+    // Ident error
 }
 
 // Unused variable error
@@ -13,25 +13,25 @@ console.log(foo);
 
 // Invalid typeof
 if (typeof test !== "func") {
-    // warn
+  // warn
 }
 
 
 
 // Function in for loop error
 for (var i=10; i; i--) {
-    (function() { return i; })();
+  (function() { return i; })();
 }
 
 function callbackTest(err, callback) {
-    if (err) {
-        // Missing return
-        callback(err);
-    }
+  if (err) {
+    // Missing return
+    callback(err);
+  }
 
-    callback();
+  callback();
 }
 
 callbackTest(null, function(err) {
-    // not handling error
+  // not handling error
 });

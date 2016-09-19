@@ -13,6 +13,6 @@
   "author": "Matias Doyle <doyle@noisolation.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^2.5.3"
+    "eslint": "^3.5.0"
   }
 }
