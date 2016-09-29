@@ -5,7 +5,7 @@ module.exports = {
             2
         ],
         'quotes': [
-            'error',
+            'warn',
             'single'
         ],
         'linebreak-style': [
