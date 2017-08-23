@@ -1,35 +1,14 @@
+'use strict';
+
+const rules = require('./rules');
+
 module.exports = {
-    'rules': {
-        'indent': [
-            'error',
-            2
-        ],
-        'quotes': [
-            'warn',
-            'single'
-        ],
-        'linebreak-style': [
-            'error',
-            'unix'
-        ],
-        'semi': [
-            'error',
-            'always'
-        ],
-        'no-unused-vars': [
-            'warn',
-            'all'
-        ],
-        'no-console': [ 1 ],
-        'valid-typeof': 'error',
-        'no-loop-func': 'error',
-        'callback-return': 'error',
-        'handle-callback-err': 'error',
-        'no-multiple-empty-lines': [ 'warn', { 'max': 2 } ]
-    },
-    'env': {
-        'es6': true,
-        'node': true
-    },
-    'extends': 'eslint:recommended'
+  rules: rules({
+    'no-console': [ 'warn' ],
+  }),
+  env: {
+    node: true,
+    es6: true
+  },
+  extends: [ 'eslint:recommended' ]
 };
