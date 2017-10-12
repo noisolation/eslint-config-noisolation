@@ -5,7 +5,7 @@ const rules = require('./rules');
 module.exports = {
   rules: rules({
     'no-console': [ 0 ],
-    'react/prop-types': [ 'warn', { ignore: [ 'navigation', 'screenProps', 'dispatch' ] } ],
+    'react/prop-types': [ 'warn', { ignore: [ 'navigation', 'screenProps', 'dispatch', 't' ] } ],
     'react-native/no-inline-styles': [ 'warn' ]
   }),
   parserOptions: {
